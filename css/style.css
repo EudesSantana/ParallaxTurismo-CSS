@@ -1,0 +1,127 @@
+/*----General Formatting----*/
+
+body, html{
+    height:100%;
+    font-family: 16px "Lato", Arial, sans-serif;
+}
+
+.clear{
+    clear:both;
+}
+
+
+/*----PHOTO BOX----*/
+
+.box1, .box2, .box3{
+    
+    position:relative;
+    height:100%;
+    opacity:0.7;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+.box1{
+    background-image:url(../img/London.jpg);
+}
+
+.box2{
+    background-image:url(../img/china.jpg);
+}
+
+.box3{
+    background-image:url(../img/rio.jpg);
+}
+
+/*----TITLE----*/
+
+.box-title{
+    position:absolute;
+    left:0;
+    top:45%;
+    width:100%;
+    text-align:center;
+}
+
+.box-title span.title{
+    color:#fff;
+    background-color:#111;
+    padding:18px;
+    font-size:25px;
+    letter-spacing:5px;
+    text-transform:uppercase;
+}
+
+ 
+
+/*----CONTENTS----*/
+section.contents{
+    text-align:justify;
+    margin:30px;
+}
+
+.contents h3{
+    text-align:center;
+    text-transform:uppercase;
+}
+
+section.contents p{
+    margin-bottom:20px;
+    
+}
+
+section.contents div.feedback{
+    width:300px;
+    height:450px;
+    background:#f7f7f7;
+    border:1px solid #111;
+    border-radius:50px;
+    float:left;
+}
+
+div.feedback{
+  margin-left:100px;
+  text-align:center;
+}
+
+div.feedback .icon1, .icon2, .icon3{
+    width:150px;
+    height:150px;
+    border-radius:300px;
+    margin:0 auto;
+    margin-top:10px;
+    border:1px solid #111;
+
+}
+
+.icon1{
+    background:url(../img/gates.jpg)no-repeat center top;
+    background-size:300px;
+   
+}
+.icon2{
+    background:url(../img/jobs.jpg)no-repeat center;
+    background-size:250px
+}
+
+.icon3{
+    background:url(../img/torvalds.jpg)no-repeat center top;
+    background-size:210px
+}
+
+.feedback p{
+    padding:10px;
+}
+
+/*----FOOTER----*/
+
+footer{
+    background:#111;
+    color:#fff;
+}
+
+#copyright{
+    text-align:center;
+}
